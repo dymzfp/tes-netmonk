@@ -103,7 +103,7 @@ func DownTime(snmp []model.Snmp) []model.Down {
 			}
 		}
 
-		if (downtime == 0 && countdown == 0) {
+		if (downtime == 0) {
 			mttr = 0.0
 		} else {
 			mttr = float32(downtime) / float32(countdown)

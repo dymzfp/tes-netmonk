@@ -1,1 +1,1 @@
-module module github.com/dymzfp/tes-netmonk
+module github.com/dymzfp/tes-netmonk
